@@ -84,7 +84,6 @@ SELECT name, age, breed FROM dogs
 ORDER BY age DESC
 LIMIT 4;
 """, conn2)
-df_4_oldest = df_4_oldest.sort_values('breed').reset_index(drop=True)
 
 # CodeGrade step0
 
